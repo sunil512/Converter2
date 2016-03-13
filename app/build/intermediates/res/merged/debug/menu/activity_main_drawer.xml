@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/temperature"
+            android:title="@string/temp" />
+        <item
+            android:id="@+id/weight"
+            android:title="@string/weight" />
+        <item
+            android:id="@+id/length"
+            android:title="@string/len" />
+        <item
+            android:id="@+id/time"
+            android:title="@string/time" />
+        <item
+            android:id="@+id/area"
+            android:title="@string/area" />
+        <item
+            android:id="@+id/volume"
+            android:title="@string/vol" />
+        <item
+            android:id="@+id/storage"
+            android:title="@string/store" />
+        <item
+            android:id="@+id/pressure"
+            android:title="@string/prsure" />
+        <item
+            android:id="@+id/sound"
+            android:title="@string/sound" />
+        <item
+            android:id="@+id/energy"
+            android:title="@string/ene" />
+        <item
+            android:id="@+id/magnet"
+            android:title="@string/mag" />
+        <item
+            android:id="@+id/image"
+            android:title="@string/img" />
+    </group>
+
+</menu><!-- From: file:/Users/bharath.simha/Workspace/Others/Cloudica/UnitConverter/app/src/main/res/menu/activity_main_drawer.xml -->

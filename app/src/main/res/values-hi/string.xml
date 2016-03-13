@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Converters</string>
+    <string name="navigation_drawer_open">ओपन नेविगेशन दराज</string>
+    <string name="navigation_drawer_close">बंद नेविगेशन दराज</string>
+
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="temp">तापमान</string>
+    <string name="weight">वजन</string>
+    <string name="len">लंबाई</string>
+    <string name="time">पहर</string>
+    <string name="area">क्षेत्र</string>
+    <string name="vol">आयतन</string>
+    <string name="store">भंडारण</string>
+    <string name="prsure">दबाव</string>
+    <string name="sound">ध्वनि</string>
+    <string name="ene">ऊर्जा</string>
+    <string name="mag">चुंबक</string>
+    <string name="img">छवि</string>
+
+    <string name="from">से</string>
+    <string name="to">को</string>
+    <string name="fedb">प्रतिक्रिया</string>
+    <string name="au">हमारे बारे में</string>
+    <string name="con">यूनिट कनवर्टर</string>
+    <string name="convert">कनवर्टर</string>
+</resources>

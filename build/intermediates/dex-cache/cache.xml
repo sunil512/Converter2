@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/bharath.simha/Workspace/Others/Cloudica/UnitConverter/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/bharath.simha/Workspace/Others/Cloudica/UnitConverter/app/build/intermediates/pre-dexed/debug/classes-90a475602ec52b29d5ad83bd8850188fd2fd3502.jar" />
+    </item>
+    <item
+        jar="/Users/bharath.simha/Workspace/Others/Cloudica/UnitConverter/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/bharath.simha/Workspace/Others/Cloudica/UnitConverter/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-0cc1e18991ff56031f73d73f5fcd2c1a18c582f8.jar" />
+    </item>
+    <item
+        jar="/Users/bharath.simha/Workspace/Others/Cloudica/UnitConverter/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/Users/bharath.simha/Workspace/Others/Cloudica/UnitConverter/app/build/intermediates/pre-dexed/debug/classes-056f6eb40f921eb69ae34ef1bc7a761ab03bd373.jar" />
+    </item>
+    <item
+        jar="/Users/bharath.simha/Workspace/Others/Cloudica/UnitConverter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/bharath.simha/Workspace/Others/Cloudica/UnitConverter/app/build/intermediates/pre-dexed/debug/classes-9872f2013de21865e9cd1552eab35ca4442e3d95.jar" />
+    </item>
+    <item
+        jar="/Users/bharath.simha/Workspace/Others/Cloudica/UnitConverter/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/bharath.simha/Workspace/Others/Cloudica/UnitConverter/app/build/intermediates/pre-dexed/debug/classes-4a575c66c7306814949d4492e4016ae07d9f2dab.jar" />
+    </item>
+    <item
+        jar="/Users/bharath.simha/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/bharath.simha/Workspace/Others/Cloudica/UnitConverter/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-86e90a055e0df4faa784b42d8ffcd3cb6f30897a.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/bharath.simha/Workspace/Others/Cloudica/UnitConverter/app/src/main/res/values-te/string.xml -->
+    <eat-comment/>
+    <string name="action_settings">సెట్టింగులు</string>
+    <string name="app_name">Converters</string>
+    <string name="area">ప్రాంతం</string>
+    <string name="au">మా గురించి</string>
+    <string name="con">యూనిట్ మార్పిడి</string>
+    <string name="convert">మార్చు</string>
+    <string name="ene">శక్తి</string>
+    <string name="fedb">అభిప్రాయం</string>
+    <string name="from">నుండి</string>
+    <string name="img">చిత్రం</string>
+    <string name="len">పొడవు</string>
+    <string name="mag">అయస్కాంతం</string>
+    <string name="navigation_drawer_close">నావిగేషన్ను మూసివేయి సొరుగు</string>
+    <string name="navigation_drawer_open">ఓపెన్ పేజీకి సంబంధించిన లింకులు సొరుగు</string>
+    <string name="prsure">ఒత్తిడి</string>
+    <string name="sound">ధ్వని</string>
+    <string name="store">నిల్వ</string>
+    <string name="temp">ఉష్ణోగ్రత</string>
+    <string name="time">సమయం</string>
+    <string name="to">కు</string>
+    <string name="vol">పరిమాణము</string>
+    <string name="weight">బరువు</string>
+</resources>
