@@ -1,29 +1,23 @@
 package com.cloudicalabs.converters;
 
+import android.content.Context;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.view.Window;
+import android.view.WindowManager;
 
 import com.cloudicalabs.converters.fragments.AllConverters;
-import com.cloudicalabs.converters.fragments.Area;
-import com.cloudicalabs.converters.fragments.Energy;
-import com.cloudicalabs.converters.fragments.Image;
-import com.cloudicalabs.converters.fragments.Length;
-import com.cloudicalabs.converters.fragments.Magnet;
-import com.cloudicalabs.converters.fragments.Pressure;
-import com.cloudicalabs.converters.fragments.Sound;
-import com.cloudicalabs.converters.fragments.Storage;
-import com.cloudicalabs.converters.fragments.Temperature;
-import com.cloudicalabs.converters.fragments.Time;
-import com.cloudicalabs.converters.fragments.Volume;
-import com.cloudicalabs.converters.fragments.Weight;
+import com.cloudicalabs.converters.fragments.UniqueConverter;
 
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -36,12 +30,18 @@ public class HomeActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.setDrawerListener(toggle);
         toggle.syncState();
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            Window window = getWindow();
+            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+            window.setStatusBarColor(getColor(getApplicationContext(), R.color.colorPrimaryDark));
+        }
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
@@ -49,6 +49,15 @@ public class HomeActivity extends AppCompatActivity
         AllConverters allConverters = new AllConverters();
         allConverters.setArguments(getIntent().getExtras());
         getSupportFragmentManager().beginTransaction().replace(R.id.mainContainer, allConverters).commit();
+    }
+
+    public static final int getColor(Context context, int id) {
+        final int version = Build.VERSION.SDK_INT;
+        if (version >= 23) {
+            return ContextCompat.getColor(context, id);
+        } else {
+            return context.getResources().getColor(id);
+        }
     }
 
 
@@ -72,52 +81,52 @@ public class HomeActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
+        int position = 0;
 
         Fragment fragment;
         switch (id) {
             case R.id.temperature:
-                fragment = new Temperature();
+                position = 0;
                 break;
             case R.id.weight:
-                fragment = new Weight();
+                position = 1;
                 break;
             case R.id.length:
-                fragment = new Length();
+                position = 2;
                 break;
             case R.id.time:
-                fragment = new Time();
+                position = 3;
                 break;
             case R.id.area:
-                fragment = new Area();
+                position = 4;
                 break;
             case R.id.volume:
-                fragment = new Volume();
+                position = 5;
                 break;
             case R.id.storage:
-                fragment = new Storage();
+                position = 6;
                 break;
             case R.id.pressure:
-                fragment = new Pressure();
+                position = 7;
                 break;
             case R.id.sound:
-                fragment = new Sound();
+                position = 8;
                 break;
             case R.id.energy:
-                fragment = new Energy();
+                position = 9;
                 break;
             case R.id.magnet:
-                fragment = new Magnet();
+                position = 10;
                 break;
             case R.id.image:
-                fragment = new Image();
-                break;
-            default:
-                fragment = new Temperature();
+                position = 11;
                 break;
         }
 
+        UniqueConverter uniqueConverter = UniqueConverter.setArguments(position);
+
         FragmentManager fragmentManager = getSupportFragmentManager();
-        fragmentManager.beginTransaction().replace(R.id.mainContainer, fragment).commit();
+        fragmentManager.beginTransaction().replace(R.id.mainContainer, uniqueConverter).commit();
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

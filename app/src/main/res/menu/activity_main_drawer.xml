@@ -1,42 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="single">
+    <group android:checkableBehavior="all">
         <item
             android:id="@+id/temperature"
+            android:icon="@drawable/temperature"
             android:title="@string/temp" />
         <item
             android:id="@+id/weight"
+            android:icon="@drawable/food"
             android:title="@string/weight" />
         <item
             android:id="@+id/length"
+            android:icon="@drawable/resize"
             android:title="@string/len" />
         <item
             android:id="@+id/time"
+            android:icon="@drawable/circular"
             android:title="@string/time" />
         <item
             android:id="@+id/area"
+            android:icon="@drawable/pie"
             android:title="@string/area" />
         <item
             android:id="@+id/volume"
+            android:icon="@drawable/chemistry"
+
             android:title="@string/vol" />
         <item
             android:id="@+id/storage"
+            android:icon="@drawable/database"
             android:title="@string/store" />
         <item
             android:id="@+id/pressure"
+            android:icon="@drawable/blood"
+
             android:title="@string/prsure" />
         <item
             android:id="@+id/sound"
+            android:icon="@drawable/sound"
+
             android:title="@string/sound" />
         <item
             android:id="@+id/energy"
+            android:icon="@drawable/energy"
+
             android:title="@string/ene" />
         <item
             android:id="@+id/magnet"
+            android:icon="@drawable/magnet"
+
             android:title="@string/mag" />
         <item
             android:id="@+id/image"
+
+            android:icon="@drawable/images"
             android:title="@string/img" />
     </group>
 

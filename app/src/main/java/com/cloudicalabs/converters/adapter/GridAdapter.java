@@ -48,7 +48,7 @@ public class GridAdapter extends BaseAdapter {
             textView.setText(text[position]);
             imageView.setImageResource(imageId[position]);
         } else {
-            grid = (View) convertView;
+            grid = convertView;
         }
         return grid;
     }

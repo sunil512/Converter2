@@ -186,7 +186,7 @@
     <color name="button_material_light">#ffd6d7d7</color>
     <!-- From: file:/Users/bharath.simha/Workspace/Others/Cloudica/UnitConverter/app/src/main/res/values/colors.xml -->
     <eat-comment/>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#2364A0</color>
     <color name="colorPrimary">#5382B7</color>
     <color name="colorPrimaryDark">#2364A0</color>
     <!-- From: file:/Users/bharath.simha/Workspace/Others/Cloudica/UnitConverter/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/values/values.xml -->
@@ -352,10 +352,6 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/Users/bharath.simha/Workspace/Others/Cloudica/UnitConverter/app/src/main/res/values/dimens.xml -->
-    <eat-comment/>
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
     <!-- From: file:/Users/bharath.simha/Workspace/Others/Cloudica/UnitConverter/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/values/values.xml -->
     <eat-comment/>
     <dimen name="design_appbar_elevation">4dp</dimen>
@@ -390,21 +386,12 @@
     <eat-comment/>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
-    <!-- From: file:/Users/bharath.simha/Workspace/Others/Cloudica/UnitConverter/app/src/main/res/values/dimens.xml -->
-    <eat-comment/>
-    <dimen name="fab_margin">16dp</dimen>
-    <!-- From: file:/Users/bharath.simha/Workspace/Others/Cloudica/UnitConverter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml -->
-    <eat-comment/>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
     <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>
     <!-- From: file:/Users/bharath.simha/Workspace/Others/Cloudica/UnitConverter/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/res/values/values.xml -->
     <eat-comment/>
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
-    <!-- From: file:/Users/bharath.simha/Workspace/Others/Cloudica/UnitConverter/app/src/main/res/values/dimens.xml -->
-    <eat-comment/>
-    <dimen name="nav_header_height">160dp</dimen>
-    <dimen name="nav_header_vertical_spacing">16dp</dimen>
     <!-- From: file:/Users/bharath.simha/Workspace/Others/Cloudica/UnitConverter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml -->
     <eat-comment/>
     <dimen name="notification_large_icon_height">64dp</dimen>
