@@ -126,7 +126,7 @@ public class HomeActivity extends AppCompatActivity
         UniqueConverter uniqueConverter = UniqueConverter.setArguments(position);
 
         FragmentManager fragmentManager = getSupportFragmentManager();
-        fragmentManager.beginTransaction().replace(R.id.mainContainer, uniqueConverter).commit();
+        fragmentManager.beginTransaction().replace(R.id.mainContainer, uniqueConverter).addToBackStack(null).commit();
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

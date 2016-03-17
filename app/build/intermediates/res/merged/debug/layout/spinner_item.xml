@@ -7,4 +7,4 @@
     android:layout_height="wrap_content"
     android:ellipsize="marquee"
     android:textColorHint="#000"
-    android:textColor="#808080"/><!-- From: file:/Users/bharath.simha/Workspace/Others/Cloudica/UnitConverter/app/src/main/res/layout/spinner_item.xml -->
+    android:textColor="#808080"/><!-- From: file:/D:/suni/Sunil/UnitConverter/UnitConverter/app/src/main/res/layout/spinner_item.xml -->
